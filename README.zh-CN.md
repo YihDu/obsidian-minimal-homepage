@@ -19,16 +19,11 @@
 
 </div>
 
-![Obsidian 文件侧栏与 Home 标签页，首页显示 Atlas 项目收藏、最近访问、Apple 日历和提醒事项](docs/images/homepage-preview.png)
+![Typewriter 浅色与深色主题下的 Minimal Homepage，展示 Notebook Navigator、Apple 两栏及笔记分屏](docs/images/homepage-themes.png)
 
-*Field Studio 是用于演示的 Obsidian Vault，笔记、日程和提醒均为虚构。*
+*Field Studio 是演示 Vault，笔记、日程和提醒均为虚构。截图使用 [Typewriter 主题](https://github.com/crashmoney/obsidian-typewriter)。*
 
-<details>
-<summary>查看深色主题下的首页与笔记分屏</summary>
-
-![深色主题的 Obsidian，左侧是首页，右侧是 Field notes 的阅读视图](docs/images/homepage-split-dark.png)
-
-</details>
+[查看浅色原图](docs/images/homepage-preview.png) · [查看深色原图](docs/images/homepage-split-dark.png)
 
 <table>
   <tr>

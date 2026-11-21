@@ -19,16 +19,11 @@
 
 </div>
 
-![Obsidian’s desktop workspace showing the Home tab, folder sidebar, pinned Project Atlas notes, recent history, and Apple Calendar and Reminders](docs/images/homepage-preview.png)
+![Minimal Homepage in Typewriter light and dark, with Notebook Navigator, Apple panels, and a split note view](docs/images/homepage-themes.png)
 
-*Field Studio, an Obsidian demo vault with fictional notes, events, and reminders.*
+*Field Studio is a demo vault with fictional notes, events, and reminders. Shown with the [Typewriter theme](https://github.com/crashmoney/obsidian-typewriter).*
 
-<details>
-<summary>See Home next to an open note in dark mode</summary>
-
-![Dark-theme Obsidian with Home on the left and the Field notes reading pane on the right](docs/images/homepage-split-dark.png)
-
-</details>
+[Full light screenshot](docs/images/homepage-preview.png) · [Full dark screenshot](docs/images/homepage-split-dark.png)
 
 <table>
   <tr>
