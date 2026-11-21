@@ -1,0 +1,9 @@
+{
+  "id": "minimal-homepage",
+  "name": "Minimal Homepage",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.0",
+  "description": "A native homepage for Notebook Navigator shortcuts and local note visits.",
+  "author": "Yih",
+  "isDesktopOnly": true
+}
