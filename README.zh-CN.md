@@ -1,12 +1,44 @@
-# Minimal Homepage
+<div align="center">
 
-[English](README.md) · [下载 1.0.0](https://github.com/YihDu/obsidian-minimal-homepage/releases/tag/1.0.0) · [反馈问题](https://github.com/YihDu/obsidian-minimal-homepage/issues)
+<img src="docs/images/mark.svg" width="76" height="76" alt="">
 
-一个原生的 Obsidian 桌面首页。随手记下一个想法，搜索全库，或回到最近打开的笔记。如果你用 Notebook Navigator，已有的 Shortcuts 会直接出现在首页。macOS 用户还可以查看 Apple 日历和提醒事项。
+<h1>Minimal Homepage</h1>
 
-![Minimal Homepage 首页，包含搜索、新建笔记、收藏、最近访问，以及左右两栏的日历和提醒事项](docs/images/homepage-preview.png)
+<p><strong>打开 Obsidian，接着做手里的事。</strong><br>随手记一个想法，回到正在写的笔记，顺便看一眼接下来的日程。</p>
 
-*浅色主题预览，笔记、日程和提醒均为示例数据。*
+<p>
+  <a href="https://obsidian.md/"><img src="https://img.shields.io/badge/Obsidian-Plugin-7C5BD0?style=flat-square&amp;logo=obsidian&amp;logoColor=white" alt="Obsidian plugin"></a>
+  <a href="https://github.com/YihDu/obsidian-minimal-homepage/releases"><img src="https://img.shields.io/github/v/release/YihDu/obsidian-minimal-homepage?include_prereleases&amp;sort=semver&amp;style=flat-square&amp;logo=github&amp;label=Preview&amp;color=694F9B" alt="GitHub preview"></a>
+  <a href="https://obsidian.md/download"><img src="https://img.shields.io/badge/Platform-Desktop-56667A?style=flat-square" alt="Desktop platform"></a>
+  <a href="#apple-日历与提醒事项"><img src="https://img.shields.io/badge/Apple%20panels-macOS%2014%2B-56667A?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="Apple panels on macOS 14+"></a>
+  <a href="https://github.com/YihDu/obsidian-minimal-homepage/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/YihDu/obsidian-minimal-homepage/checks.yml?branch=main&amp;style=flat-square&amp;label=Checks" alt="Checks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-48745C?style=flat-square" alt="MIT license"></a>
+</p>
+
+<p><a href="https://github.com/YihDu/obsidian-minimal-homepage/releases"><strong>下载预览版</strong></a> · <a href="README.md">English</a> · <a href="https://github.com/YihDu/obsidian-minimal-homepage/issues">反馈问题</a></p>
+
+</div>
+
+![Obsidian 文件侧栏与 Home 标签页，首页显示 Atlas 项目收藏、最近访问、Apple 日历和提醒事项](docs/images/homepage-preview.png)
+
+*Field Studio 是用于演示的 Obsidian Vault，笔记、日程和提醒均为虚构。*
+
+<details>
+<summary>查看深色主题下的首页与笔记分屏</summary>
+
+![深色主题的 Obsidian，左侧是首页，右侧是 Field notes 的阅读视图](docs/images/homepage-split-dark.png)
+
+</details>
+
+<table>
+  <tr>
+    <td width="33%"><strong>随手记下灵感</strong><br>一键在 <code>box</code> 新建笔记，旁边就是全库搜索。</td>
+    <td width="33%"><strong>回到正在做的事</strong><br>从 Notebook Navigator 收藏、最近访问或高频笔记继续。</td>
+    <td width="33%"><strong>看看今天的安排</strong><br>在 macOS 一眼看到近期日程和未完成提醒。</td>
+  </tr>
+</table>
+
+> GitHub 预览版 · 从 Releases 手动安装。Notebook Navigator 和 Apple 两栏均为可选。
 
 ## 安装
 
@@ -30,7 +62,7 @@
 
 Notebook Navigator 是可选联动。已核对 **3.5.1** 的 Shortcut 数据格式，包括设备本地配置档案。首页只读其设置。其他版本如果调整了数据格式，可能影响 Pinned。
 
-## 接入 Apple 日历和提醒事项
+## Apple 日历与提醒事项
 
 GitHub 下载包包含首页。要使用 Apple 两栏，请在目标 Mac 本地构建助手。
 

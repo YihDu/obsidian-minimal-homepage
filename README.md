@@ -1,12 +1,44 @@
-# Minimal Homepage
+<div align="center">
 
-[简体中文](README.zh-CN.md) · [Download 1.0.0](https://github.com/YihDu/obsidian-minimal-homepage/releases/tag/1.0.0) · [Report an issue](https://github.com/YihDu/obsidian-minimal-homepage/issues)
+<img src="docs/images/mark.svg" width="76" height="76" alt="">
 
-A native home tab for Obsidian Desktop. Capture an idea in your inbox, find a note, or pick up where you left off. If you use Notebook Navigator, your existing Shortcuts are already your pins. On macOS, you can also see what’s next in Apple Calendar and Reminders.
+<h1>Minimal Homepage</h1>
 
-![Minimal Homepage with vault search and New Note, pinned shortcuts, recently opened notes, and two columns for Apple Calendar and Reminders](docs/images/homepage-preview.png)
+<p><strong>A home tab for the notes you’re working on.</strong><br>Capture into your inbox, pick up a recent note, and glance at what’s next.</p>
 
-*Light-theme preview with fictional notes, events, and reminders.*
+<p>
+  <a href="https://obsidian.md/"><img src="https://img.shields.io/badge/Obsidian-Plugin-7C5BD0?style=flat-square&amp;logo=obsidian&amp;logoColor=white" alt="Obsidian plugin"></a>
+  <a href="https://github.com/YihDu/obsidian-minimal-homepage/releases"><img src="https://img.shields.io/github/v/release/YihDu/obsidian-minimal-homepage?include_prereleases&amp;sort=semver&amp;style=flat-square&amp;logo=github&amp;label=Preview&amp;color=694F9B" alt="GitHub preview"></a>
+  <a href="https://obsidian.md/download"><img src="https://img.shields.io/badge/Platform-Desktop-56667A?style=flat-square" alt="Desktop platform"></a>
+  <a href="#apple-calendar--reminders"><img src="https://img.shields.io/badge/Apple%20panels-macOS%2014%2B-56667A?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="Apple panels on macOS 14+"></a>
+  <a href="https://github.com/YihDu/obsidian-minimal-homepage/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/YihDu/obsidian-minimal-homepage/checks.yml?branch=main&amp;style=flat-square&amp;label=Checks" alt="Checks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-48745C?style=flat-square" alt="MIT license"></a>
+</p>
+
+<p><a href="https://github.com/YihDu/obsidian-minimal-homepage/releases"><strong>Download preview</strong></a> · <a href="README.zh-CN.md">简体中文</a> · <a href="https://github.com/YihDu/obsidian-minimal-homepage/issues">Report an issue</a></p>
+
+</div>
+
+![Obsidian’s desktop workspace showing the Home tab, folder sidebar, pinned Project Atlas notes, recent history, and Apple Calendar and Reminders](docs/images/homepage-preview.png)
+
+*Field Studio, an Obsidian demo vault with fictional notes, events, and reminders.*
+
+<details>
+<summary>See Home next to an open note in dark mode</summary>
+
+![Dark-theme Obsidian with Home on the left and the Field notes reading pane on the right](docs/images/homepage-split-dark.png)
+
+</details>
+
+<table>
+  <tr>
+    <td width="33%"><strong>Start with an idea</strong><br>One click opens a blank note in your <code>box</code>. Search is right beside it.</td>
+    <td width="33%"><strong>Pick up your work</strong><br>Read your Notebook Navigator pins and return to recent or frequent notes.</td>
+    <td width="33%"><strong>Glance at your day</strong><br>See upcoming Apple Calendar events and unfinished Reminders on macOS.</td>
+  </tr>
+</table>
+
+> GitHub preview · Install manually from Releases. Notebook Navigator and Apple panels are optional.
 
 ## Install
 
@@ -30,7 +62,7 @@ Use **Settings → Minimal Homepage** to hide the ribbon icon or open Home on st
 
 Notebook Navigator is optional. The Shortcut adapter was verified with **3.5.1**, including the format used with device-local profiles. Its settings are read-only. Other versions may change the Shortcut format. The rest of Home is usable without it.
 
-## Connect Apple Calendar and Reminders
+## Apple Calendar & Reminders
 
 The download includes the Home UI. Build the helper on the Mac where you want to use the Apple panels.
 
